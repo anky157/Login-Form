@@ -1,0 +1,295 @@
+ .main-div {
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .bg-blue {
+   border-radius: 10px;
+   width: 31%;
+   height: 52vh;
+   background-image: url(./Images/Blue\ Bg.svg);
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ .bg-content h1 {
+   margin-top: 41px;
+   font-size: 16px;
+   text-align: center;
+   color: white;
+ }
+
+ .bg-content p {
+   text-align: center;
+   color: white;
+   font-size: 10px;
+ }
+
+ .bg-content-two {
+   display: none;
+ }
+
+ .object-image {
+   margin: auto;
+   height: 211px;
+   width: 245px;
+ }
+
+ .white-logo {
+   display: none;
+ }
+
+ .right-form {
+   margin-left: -12px;
+   background-color: white;
+   border-radius: 11px;
+   box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.2);
+   width: 31%;
+   height: 52vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+ }
+
+ .wrapper {
+   margin-bottom: 12px;
+ }
+
+ .input-fields {
+   position: relative;
+ }
+
+ .place-holder {
+   text-align: center;
+   font-style: italic;
+   font-size: 12px;
+ }
+
+ .mail-img {
+   position: absolute;
+   left: 16px;
+   top: 10px;
+ }
+
+ .Keyss-img {
+   position: absolute;
+   left: 18px;
+   top: 65px;
+ }
+
+ .line-img-one {
+   top: 2px;
+   position: absolute;
+   left: 53px;
+   color: #034ea2;
+ }
+
+ .line-img-two {
+   top: 56px;
+   position: absolute;
+   left: 53px;
+   color: #034ea2;
+ }
+
+ .logo-one {
+   margin: auto;
+   display: block;
+   height: 100px;
+   width: 100px;
+ }
+
+ .inputs {
+   box-shadow: 3px 4px 9px 3px rgb(137 175 232 / 20%);
+   border: none;
+   padding: 9px 56px;
+   outline: none;
+ }
+
+ .btns {
+   margin-right: auto;
+   margin-left: auto;
+   margin-top: 17px;
+   background: #034C9B;
+   color: white;
+   border-radius: 3px;
+   padding: 8px 34px;
+   border: none;
+   display: block;
+ }
+
+ .login-footer {
+   margin-top: 26px;
+ }
+
+ .login-footer .para {
+   text-align: center;
+   font-size: 12px;
+   font-weight: 500;
+ }
+
+ .login-footer .para-reserved {
+   text-align: center;
+   font-size: 11px;
+ }
+
+ @media screen and (max-width:952px) {
+
+   .main-div {
+     flex-direction: column;
+   }
+
+   .bg-blue {
+     background-attachment: fixed;
+     width: 100%;
+     background-size: cover;
+   }
+
+   .bg-content {
+     display: none;
+   }
+
+   .white-logo {
+     padding-top: 19px;
+     margin: auto;
+     display: block;
+   }
+
+   .bg-content-two {
+     display: block;
+   }
+
+   .bg-content-two h1 {
+     font-size: 24px;
+     text-align: center;
+     color: white;
+   }
+
+   .bg-content-two p {
+     text-align: center;
+     color: white;
+     font-size: 14px;
+   }
+
+   .object-image {
+     height: 227px;
+     width: 318px;
+   }
+
+   .right-form {
+     width: 100%;
+     margin-right: -10px;
+   }
+
+   .logo-one {
+     display: none;
+   }
+
+   .inputs {
+     padding: 19px 103px;
+   }
+
+   .input-fields {
+     text-align: center;
+     margin-top: 28px;
+   }
+
+   .mail-img {
+     left: 32px;
+     top: 22px;
+   }
+
+   .Keyss-img {
+     left: 35px;
+     top: 95px;
+   }
+
+   .line-img-one {
+     top: 15px;
+     left: 75px;
+   }
+
+   .line-img-two {
+     top: 87px;
+     left: 75px;
+   }
+
+   .btns {
+     margin-top: 27px;
+     padding: 8px 34px;
+   }
+
+   .login-footer .para {
+     font-weight: 500;
+     font-size: 13px;
+   }
+
+ }
+
+ @media screen and (max-width:415px) {
+   .bg-blue {
+     width: 100%;
+     height: 76%;
+   }
+
+   .white-logo {
+     padding-top: 31px;
+   }
+
+   .bg-content-two {
+     padding-top: 64px;
+   }
+
+   .object-image {
+     height: 172px;
+     width: 261px;
+     padding-top: 24px;
+   }
+
+   .right-form {
+     width: 100%;
+     margin-right: -13px;
+   }
+
+   .inputs {
+     padding: 14px 52px;
+   }
+
+   .object-image {
+     height: 172px;
+     width: 261px;
+   }
+
+   .mail-img {
+     left: 27px;
+     top: 17px;
+   }
+
+   .Keyss-img {
+     left: 29px;
+     top: 80px;
+   }
+
+   .line-img-one {
+     color: #034ea2;
+     top: 11px;
+     left: 72px;
+   }
+
+   .line-img-two {
+     color: #034ea2;
+     top: 72px;
+     left: 72px;
+   }
+
+   .login-footer .para {
+     font-size: 11px;
+   }
+
+   .login-footer .para-reserved {
+     font-size: 11px;
+   }
+ }
